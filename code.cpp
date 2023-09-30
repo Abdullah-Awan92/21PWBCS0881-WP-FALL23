@@ -6,13 +6,13 @@ int main()
     int i, mark[5];
     float sum=0, avg, perc;
     cout<<"Enter Marks obtained in 5 Subjects: ";
-    for(i=0; i<5; i++)
+    for(i=0; i<3; i++)
     {
         cin>>mark[i];
         sum = sum+mark[i];
     }
-    avg = sum/5;
-    perc = (sum/500)*100;
+    avg = sum/3;
+    perc = (sum/300)*100;
     cout<<"\nAverage Marks = "<<avg;
     cout<<"\nPercentage Marks = "<<perc<<"%";
     cout<<endl;
