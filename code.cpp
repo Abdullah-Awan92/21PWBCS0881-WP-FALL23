@@ -6,7 +6,7 @@ int main()
     int i, mark[5];
     float sum=0, avg, perc;
     cout<<"Enter Marks obtained in 5 Subjects: ";
-    for(i=0; i<3; i++)
+    for(i=0; i<10; i++)
     {
         cin>>mark[i];
         sum = sum+mark[i];
