@@ -11,8 +11,8 @@ int main()
         cin>>mark[i];
         sum = sum+mark[i];
     }
-    avg = sum/3;
-    perc = (sum/300)*100;
+    avg = sum/10; // cahnged to 10
+    perc = (sum/1000)*100;
     cout<<"\nAverage Marks = "<<avg;
     cout<<"\nPercentage Marks = "<<perc<<"%";
     cout<<endl;
